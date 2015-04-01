@@ -7,3 +7,14 @@ div {
 .truc{
 
 }
+.joli {
+    background-color: yellow;
+    padding: 1%
+}
+.gris{
+    background-color: lightblue;
+    padding: 1%;
+}
+img  {
+    float: right;
+}

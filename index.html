@@ -2,16 +2,21 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
+    <LINK rel="stylesheet" type="text/css" href="style.css">
     <title></title>
 </head>
 <body>
 <img src="logo_24.png" alt="logo_hacked">
-<form action="login.php" method="post">
+<div class="joli">
+
+<form action="login.php" method="post" >
     <label>email</label><input type="email" name ="email">
     <label>password</label><input type="password" name="password">
     <input type="submit" value="OK">
 </form>
-<nav>
+    </div>
+
+<nav class="joli">
 <table cellpadding="10">
     <tr>
         <td><a href="http://www.leboncoin.fr/"></a>ACCUEIL</td>
@@ -23,7 +28,7 @@
     </tr>
 </table>
 </nav>
-<form>
+<form class="joli">
     <input name="q" value="" size="30" maxlength="500" type="text">
     <select name="c">
         <option value="0" selected>Toutes cat&eacute;gories</option>
@@ -261,12 +266,13 @@
     <input type="text" id="location" name="location" autocomplete="off" placeholder="Ville ou code postal" >
     <input id="searchbutton" value="Chercher" type="submit"  />
 </form>
-<table cellpadding="20" width="100%">
+<table cellpadding="20" width="100%" class="gris">
     <tr><td width="30%"> <img src="TShirt.jpg" alt="tshirt"></td><td>Un joli T-shirt</td></tr>
     <tr><td width="30%"> <img src="ordi.jpg" alt="ordi"></td><td>Un ordi surpuissant</td></tr>
     <tr><td width="30%"> <img src="album.jpg" alt="album"></td><td>Des belles chansons</td></tr>
 </table>
-<table><tr><td><a href="">Page précédente</a></td><td><a href="page1.html">1</a></td><td><a href="page2.html">2</a></td><td><a href="page3.html">3</a></td><td><a href="">Page suivante</a></td></tr></table>
-<footer><tr>Copyright LeBonCoin 2015</tr></footer>
+
+<footer class="joli"><table class="joli"><tr><td><a href="">Page précédente</a></td><td><a href="page1.html">1</a></td><td><a href="page2.html">2</a></td><td><a href="page3.html">3</a></td><td><a href="">Page suivante</a></td></tr></table>
+    <tr>Copyright LeBonCoin 2015</tr></footer>
 </body>
 </html>

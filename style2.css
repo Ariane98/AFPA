@@ -1,0 +1,82 @@
+body {
+    background-color: lavender;
+    font-family: cursive;
+}
+nav {
+    border: 2px solid #a1a1a1;
+    padding: 10px 40px;
+    background: #dddddd;
+    width: 300px;
+    border-radius: 25px;
+}
+/* unvisited link */
+a:link {
+    color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+    color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+}
+.hide-text {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+div {
+
+}
+.truc{
+
+}
+.joli {
+    background-color: yellow;
+    padding: 1%
+}
+.gris{
+    background-color: lightblue;
+    padding: 1%;
+}
+/*
+img.normal  {
+    position: fixed;
+    height: auto;
+    right: 0px;
+    top: 0px;
+    /*float: right;
+
+}
+  */
+
+img.normal {
+    height: 100%;
+}
+img.small {
+    height:50vh;
+}
+img.big {
+    height: 50%;
+}
+footer {
+    position:relative;
+    background-color: lightblue;
+    /*font-weight:100;
+     */
+    font-weight:600;
+
+    font-size: small;
+    z-index: 3;
+}
+header {
+    background-color: lightblue;
+}
